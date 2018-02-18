@@ -1,0 +1,140 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectTypeGuids>{EFBA0AD7-5A72-4C68-AF49-83D382785DCF};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <ProjectGuid>{5290D7DD-5D94-4CC9-80EC-C90BAA00480C}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <RootNamespace>Weather</RootNamespace>
+    <AndroidApplication>True</AndroidApplication>
+    <AndroidResgenFile>Resources\Resource.designer.cs</AndroidResgenFile>
+    <AndroidResgenClass>Resource</AndroidResgenClass>
+    <AndroidManifest>Properties\AndroidManifest.xml</AndroidManifest>
+    <MonoAndroidResourcePrefix>Resources</MonoAndroidResourcePrefix>
+    <MonoAndroidAssetsPrefix>Assets</MonoAndroidAssetsPrefix>
+    <AndroidUseLatestPlatformSdk>False</AndroidUseLatestPlatformSdk>
+    <AssemblyName>Weather</AssemblyName>
+    <TargetFrameworkVersion>v4.4</TargetFrameworkVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug</OutputPath>
+    <DefineConstants>DEBUG;</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <ConsolePause>false</ConsolePause>
+    <AndroidLinkMode>None</AndroidLinkMode>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>full</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release</OutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <ConsolePause>false</ConsolePause>
+    <AndroidUseSharedRuntime>false</AndroidUseSharedRuntime>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.EnterpriseServices" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="Mono.Android" />
+    <Reference Include="System.Web.Services" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Elements.cs" />
+    <Compile Include="FakeMetDataService.cs" />
+    <Compile Include="Resources\Resource.designer.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SelectCountyActivity.cs" />
+    <Compile Include="Department.cs" />
+    <Compile Include="Station.cs" />
+    <Compile Include="CountyAdapter.cs" />
+    <Compile Include="TimeSeriesType.cs" />
+    <Compile Include="Web References\eklima.met.no\Reference.cs">
+      <DependentUpon>Reference.map</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="SelectStationActivity.cs" />
+    <Compile Include="MainActivity.cs" />
+    <Compile Include="StationAdapter.cs" />
+    <Compile Include="LastWeek.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\AboutResources.txt" />
+    <None Include="Properties\AndroidManifest.xml" />
+    <None Include="Assets\AboutAssets.txt" />
+    <None Include="Web References\eklima.met.no\MetDataService.wsdl" />
+    <None Include="Web References\eklima.met.no\no_met_metdata_CountyTypes.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\eklima.met.no\no_met_metdata_ElementProperties.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\eklima.met.no\no_met_metdata_FlagProperties.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\eklima.met.no\no_met_metdata_Metdata.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\eklima.met.no\no_met_metdata_PrecipitationTypes.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\eklima.met.no\no_met_metdata_StationProperties.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\eklima.met.no\no_met_metdata_TimeSerieTypes.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\eklima.met.no\Reference.map">
+      <Generator>MSDiscoCodeGenerator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\values\Strings.xml" />
+    <AndroidResource Include="Resources\drawable-hdpi\Icon.png" />
+    <AndroidResource Include="Resources\drawable-mdpi\Icon.png" />
+    <AndroidResource Include="Resources\drawable-xhdpi\Icon.png" />
+    <AndroidResource Include="Resources\drawable-xxhdpi\Icon.png" />
+    <AndroidResource Include="Resources\drawable-xxxhdpi\Icon.png" />
+    <AndroidResource Include="Resources\layout\SelectStationLayout.axml" />
+    <AndroidResource Include="Resources\layout\MainLayout.axml" />
+    <AndroidResource Include="Resources\drawable\Akershus.png" />
+    <AndroidResource Include="Resources\drawable\Buskerud.png" />
+    <AndroidResource Include="Resources\drawable\Finnmark.png" />
+    <AndroidResource Include="Resources\drawable\Hedmark.png" />
+    <AndroidResource Include="Resources\drawable\Hordaland.png" />
+    <AndroidResource Include="Resources\drawable\Nordland.png" />
+    <AndroidResource Include="Resources\drawable\Oppland.png" />
+    <AndroidResource Include="Resources\drawable\Oslo.png" />
+    <AndroidResource Include="Resources\drawable\Rogaland.png" />
+    <AndroidResource Include="Resources\drawable\Sogn_og_Fjordane.png" />
+    <AndroidResource Include="Resources\drawable\Telemark.png" />
+    <AndroidResource Include="Resources\drawable\Troms.png" />
+    <AndroidResource Include="Resources\drawable\Vestfold.png" />
+    <AndroidResource Include="Resources\drawable\Moere_og_Romsdal.png" />
+    <AndroidResource Include="Resources\drawable\Oestfold.png" />
+    <AndroidResource Include="Resources\drawable\Nord_Troendelag.png" />
+    <AndroidResource Include="Resources\drawable\Aust_Agder.png" />
+    <AndroidResource Include="Resources\drawable\Soer_Troendelag.png" />
+    <AndroidResource Include="Resources\drawable\Vest_Agder.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <WebReferences Include="Web References" />
+  </ItemGroup>
+  <ItemGroup>
+    <WebReferenceUrl Include="http://eklima.met.no/metdata/MetDataService?WSDL">
+      <UrlBehavior>Dynamic</UrlBehavior>
+      <RelPath>Web References\eklima.met.no</RelPath>
+      <UpdateFromURL>http://eklima.met.no/metdata/MetDataService?WSDL</UpdateFromURL>
+    </WebReferenceUrl>
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.CSharp.targets" />
+</Project>

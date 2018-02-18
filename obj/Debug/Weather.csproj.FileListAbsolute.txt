@@ -1,0 +1,64 @@
+C:\Users\Cecilie\Documents\eCademy\.NET utvikler\Prosjekter\Weather\bin\Debug\Weather.dll
+C:\Users\Cecilie\Documents\eCademy\.NET utvikler\Prosjekter\Weather\bin\Debug\Weather.pdb
+C:\Users\Cecilie\Documents\eCademy\.NET utvikler\Prosjekter\Weather\bin\Debug\com.ecademy.nuh114.apk
+C:\Users\Cecilie\Documents\eCademy\.NET utvikler\Prosjekter\Weather\bin\Debug\com.ecademy.nuh114-Signed.apk
+C:\Users\Cecilie\Documents\eCademy\.NET utvikler\Prosjekter\Weather\obj\Debug\Weather.csproj.CoreCompileInputs.cache
+C:\Users\Cecilie\Documents\eCademy\.NET utvikler\Prosjekter\Weather\obj\Debug\Weather.dll
+C:\Users\Cecilie\Documents\eCademy\.NET utvikler\Prosjekter\Weather\obj\Debug\Weather.pdb
+C:\Users\Cecilie\Documents\eCademy\.NET utvikler\Prosjekter\Weather\obj\Debug\android\bin\com.ecademy.nuh114.apk
+C:\Users\Cecilie\Documents\eCademy\.NET utvikler\Prosjekter\Weather\obj\Debug\res\values\strings.xml
+C:\Users\Cecilie\Documents\eCademy\.NET utvikler\Prosjekter\Weather\obj\Debug\res\drawable-hdpi\icon.png
+C:\Users\Cecilie\Documents\eCademy\.NET utvikler\Prosjekter\Weather\obj\Debug\res\drawable-mdpi\icon.png
+C:\Users\Cecilie\Documents\eCademy\.NET utvikler\Prosjekter\Weather\obj\Debug\res\drawable-xhdpi\icon.png
+C:\Users\Cecilie\Documents\eCademy\.NET utvikler\Prosjekter\Weather\obj\Debug\res\drawable-xxhdpi\icon.png
+C:\Users\Cecilie\Documents\eCademy\.NET utvikler\Prosjekter\Weather\obj\Debug\res\drawable-xxxhdpi\icon.png
+C:\Users\Cecilie\Documents\eCademy\.NET utvikler\Prosjekter\Weather\obj\Debug\res\layout\selectstationlayout.xml
+C:\Users\Cecilie\Documents\eCademy\.NET utvikler\Prosjekter\Weather\obj\Debug\res\layout\mainlayout.xml
+C:\Users\Cecilie\Documents\eCademy\.NET utvikler\Prosjekter\Weather\obj\Debug\res\drawable\akershus.png
+C:\Users\Cecilie\Documents\eCademy\.NET utvikler\Prosjekter\Weather\obj\Debug\res\drawable\buskerud.png
+C:\Users\Cecilie\Documents\eCademy\.NET utvikler\Prosjekter\Weather\obj\Debug\res\drawable\finnmark.png
+C:\Users\Cecilie\Documents\eCademy\.NET utvikler\Prosjekter\Weather\obj\Debug\res\drawable\hedmark.png
+C:\Users\Cecilie\Documents\eCademy\.NET utvikler\Prosjekter\Weather\obj\Debug\res\drawable\hordaland.png
+C:\Users\Cecilie\Documents\eCademy\.NET utvikler\Prosjekter\Weather\obj\Debug\res\drawable\nordland.png
+C:\Users\Cecilie\Documents\eCademy\.NET utvikler\Prosjekter\Weather\obj\Debug\res\drawable\oppland.png
+C:\Users\Cecilie\Documents\eCademy\.NET utvikler\Prosjekter\Weather\obj\Debug\res\drawable\oslo.png
+C:\Users\Cecilie\Documents\eCademy\.NET utvikler\Prosjekter\Weather\obj\Debug\res\drawable\rogaland.png
+C:\Users\Cecilie\Documents\eCademy\.NET utvikler\Prosjekter\Weather\obj\Debug\res\drawable\sogn_og_fjordane.png
+C:\Users\Cecilie\Documents\eCademy\.NET utvikler\Prosjekter\Weather\obj\Debug\res\drawable\telemark.png
+C:\Users\Cecilie\Documents\eCademy\.NET utvikler\Prosjekter\Weather\obj\Debug\res\drawable\troms.png
+C:\Users\Cecilie\Documents\eCademy\.NET utvikler\Prosjekter\Weather\obj\Debug\res\drawable\vestfold.png
+C:\Users\Cecilie\Documents\eCademy\.NET utvikler\Prosjekter\Weather\obj\Debug\res\drawable\moere_og_romsdal.png
+C:\Users\Cecilie\Documents\eCademy\.NET utvikler\Prosjekter\Weather\obj\Debug\res\drawable\oestfold.png
+C:\Users\Cecilie\Documents\eCademy\.NET utvikler\Prosjekter\Weather\obj\Debug\res\drawable\nord_troendelag.png
+C:\Users\Cecilie\Documents\eCademy\.NET utvikler\Prosjekter\Weather\obj\Debug\res\drawable\aust_agder.png
+C:\Users\Cecilie\Documents\eCademy\.NET utvikler\Prosjekter\Weather\obj\Debug\res\drawable\soer_troendelag.png
+C:\Users\Cecilie\Documents\eCademy\.NET utvikler\Prosjekter\Weather\obj\Debug\res\drawable\vest_agder.png
+C:\Users\Cecilie\Documents\eCademy\.NET utvikler\Prosjekter\Weather\obj\Debug\R.cs.flag
+C:\Users\Cecilie\Documents\eCademy\.NET utvikler\Prosjekter\Weather\obj\Debug\uploadflags.txt
+C:\Users\Cecilie\Documents\eCademy\.NET utvikler\Prosjekter\Weather\bin\Debug\Weather.dll.mdb
+C:\Users\Cecilie\Documents\eCademy\.NET utvikler\Prosjekter\Weather\obj\Debug\android\assets\Weather.dll.mdb
+C:\Users\Cecilie\Documents\eCademy\.NET utvikler\Prosjekter\Weather\obj\Debug\Weather.csprojResolveAssemblyReference.cache
+C:\Users\Cecilie\Documents\eCademy\.NET utvikler\Prosjekter\Weather\bin\Debug\Weather.dll
+bin\Debug\Mono.Android.pdb
+bin\Debug\mscorlib.pdb
+bin\Debug\System.Core.pdb
+bin\Debug\System.pdb
+bin\Debug\System.Web.Services.pdb
+bin\Debug\System.Xml.pdb
+bin\Debug\System.Net.Http.pdb
+bin\Debug\System.Runtime.Serialization.pdb
+bin\Debug\System.ServiceModel.Internals.pdb
+bin\Debug\Mono.Security.pdb
+bin\Debug\System.ComponentModel.Composition.pdb
+obj\Debug\linksrc\Weather.dll.mdb
+obj\Debug\linksrc\Mono.Android.pdb
+obj\Debug\linksrc\mscorlib.pdb
+obj\Debug\linksrc\System.Core.pdb
+obj\Debug\linksrc\System.pdb
+obj\Debug\linksrc\System.Web.Services.pdb
+obj\Debug\linksrc\System.Xml.pdb
+obj\Debug\linksrc\System.Net.Http.pdb
+obj\Debug\linksrc\System.Runtime.Serialization.pdb
+obj\Debug\linksrc\System.ServiceModel.Internals.pdb
+obj\Debug\linksrc\Mono.Security.pdb
+obj\Debug\linksrc\System.ComponentModel.Composition.pdb
